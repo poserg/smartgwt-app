@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.github.poserg</groupId>
+    <artifactId>smartgwt-app</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+
+    <name>SmartGWT WAR</name>
+
+    <properties>
+        <!-- Explictly specify a default encoding to avoid relying on the OS locale. -->
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+        <gwt.version>2.0.4</gwt.version>
+        <smartgwt.version>2.4</smartgwt.version>
+
+        <maven.compiler.source>1.7</maven.compiler.source>
+        <maven.compiler.target>1.7</maven.compiler.target>
+    </properties>
+
+    <modules>
+        <module>rest-server</module>
+        <module>client</module>
+    </modules>
+
+</project>
+
