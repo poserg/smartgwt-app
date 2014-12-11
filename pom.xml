@@ -15,13 +15,13 @@
 
     <properties>
         <!-- Explictly specify a default encoding to avoid relying on the OS locale. -->
-        <project.build.sourceEncoding>ISO-8859-1</project.build.sourceEncoding>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
         <gwt.version>2.0.4</gwt.version>
         <smartgwt.version>2.4</smartgwt.version>
 
-        <maven.compiler.source>1.6</maven.compiler.source>
-        <maven.compiler.target>1.6</maven.compiler.target>
+        <maven.compiler.source>1.7</maven.compiler.source>
+        <maven.compiler.target>1.7</maven.compiler.target>
     </properties>
 
     <dependencies>
