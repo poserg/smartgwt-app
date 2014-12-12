@@ -2,10 +2,10 @@
     <xs:element name="Customer" type="tns:customer"/>
     <xs:element name="Order" type="tns:order"/>
     <xs:element name="Product" type="tns:product"/>
-    <xs:complexType name="order">
+    <xs:complexType name="customer">
         <xs:sequence>
-            <xs:element minOccurs="0" name="description" type="xs:string"/>
             <xs:element name="id" type="xs:long"/>
+            <xs:element minOccurs="0" name="name" type="xs:string"/>
         </xs:sequence>
     </xs:complexType>
     <xs:complexType name="product">
@@ -14,10 +14,10 @@
             <xs:element name="id" type="xs:long"/>
         </xs:sequence>
     </xs:complexType>
-    <xs:complexType name="customer">
+    <xs:complexType name="order">
         <xs:sequence>
+            <xs:element minOccurs="0" name="description" type="xs:string"/>
             <xs:element name="id" type="xs:long"/>
-            <xs:element minOccurs="0" name="name" type="xs:string"/>
         </xs:sequence>
     </xs:complexType>
 </xs:schema>
