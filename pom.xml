@@ -56,6 +56,11 @@
             <scope>test</scope>
         </dependency>
 
+        <dependency>
+        	<groupId>com.smartgwt</groupId>
+        	<artifactId>smartgwt-skins</artifactId>
+        	<version>${smartgwt.version}</version>
+        </dependency>
     </dependencies>
 
     <build>

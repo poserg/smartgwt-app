@@ -10,7 +10,7 @@
       <inherits name='com.smartgwt.SmartGwt' />
       <inherits name="com.smartgwt.tools.SmartGwtTools"/>
 
-      <inherits name="com.smartclient.theme.graphite.Graphite"/>
+      <!-- <inherits name="com.smartclient.theme.treefrog.TreeFrog" /> -->
 
       <!-- Limit builds to your preferred browser. -->
 
